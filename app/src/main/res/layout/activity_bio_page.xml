@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BioPage"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:background="@color/white"
+    >
+<TextView
+    android:id="@+id/txt_bio_header"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="My Bio."
+    android:layout_marginTop="30dp"
+    android:fontFamily="@font/nimbus"
+    android:textColor="@color/dark"
+    android:textSize="90sp"
+    />
+
+<ImageView
+    android:id="@+id/img_bio_details"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:layout_marginTop="-91dp"
+    android:layout_below="@id/txt_bio_header"
+    android:src="@drawable/headerinfo"
+    />
+
+    <ImageView
+        android:id="@+id/img_baby_pic1"
+        android:layout_width="138dp"
+        android:layout_height="143dp"
+        android:layout_below="@id/img_bio_details"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-86dp"
+        android:layout_marginEnd="1dp"
+        android:src="@drawable/baby1" />
+
+    <ImageView
+        android:id="@+id/img_baby_pic2"
+        android:layout_width="168dp"
+        android:layout_height="99dp"
+        android:layout_below="@id/img_bio_details"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="-85dp"
+        android:layout_marginEnd="8dp"
+        android:layout_toStartOf="@id/img_baby_pic1"
+        android:src="@drawable/baby2" />
+
+    <TextView
+        android:id="@+id/txt_hobbies"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Hobbies."
+        android:layout_toStartOf="@id/img_baby_pic1"
+        android:layout_below="@id/img_baby_pic2"
+        android:layout_marginTop="1dp"
+        android:fontFamily="@font/nimbus"
+        android:textColor="@color/dark"
+        android:textSize="46sp"
+        />
+
+    <TextView
+        android:id="@+id/txt_sub_hobbies"
+        android:layout_width="179dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="-8dp"
+        android:layout_below="@id/txt_hobbies"
+        android:text="@string/hobby"
+        android:fontFamily="@font/nimbus"
+        android:textColor="@color/dark"
+        android:textSize="6.5dp"
+        />
+
+    <ImageView
+        android:id="@+id/img_guitar1"
+        android:layout_width="74dp"
+        android:layout_height="172dp"
+        android:layout_below="@id/txt_sub_hobbies"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginTop="6dp"
+        android:src="@drawable/guitar3" />
+
+    <ImageView
+        android:id="@+id/img_guitar2"
+        android:layout_width="91dp"
+        android:layout_height="175dp"
+        android:layout_below="@id/txt_sub_hobbies"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/img_guitar1"
+        android:src="@drawable/guitar" />
+
+    <ImageView
+        android:id="@+id/img_guitar3"
+        android:layout_width="139dp"
+        android:layout_height="176dp"
+        android:layout_below="@id/txt_sub_hobbies"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@id/img_guitar2"
+        android:src="@drawable/guitar2" />
+
+    <ImageView
+        android:id="@+id/img_guitar4"
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:layout_below="@id/img_guitar1"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/guitar4" />
+    <TextView
+        android:id="@+id/txt_family"
+        android:layout_width="211dp"
+        android:layout_height="match_parent"
+        android:text="My Family."
+        android:gravity="start"
+        android:layout_marginTop="7dp"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@id/img_mama"
+        android:layout_below="@id/img_guitar4"
+        android:fontFamily="@font/nimbus"
+        android:textColor="@color/dark"
+        android:textSize="46sp"
+        />
+
+    <TextView
+        android:id="@+id/txt_sub_fam"
+        android:layout_width="178dp"
+        android:layout_height="10dp"
+        android:layout_below="@id/txt_family"
+        android:text="@string/fam"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="-3dp"
+        android:layout_toEndOf="@id/img_mama"
+        android:fontFamily="@font/nimbus"
+        android:textColor="@color/dark"
+        android:textSize="7dp"
+        android:letterSpacing="0.05"
+        />
+
+
+    <ImageView
+        android:id="@+id/img_kat"
+        android:layout_width="112dp"
+        android:layout_height="92dp"
+        android:layout_below="@id/txt_sub_fam"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/katkat" />
+
+    <ImageView
+        android:id="@+id/img_char"
+        android:layout_width="112dp"
+        android:layout_height="92dp"
+        android:layout_below="@id/img_kat"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10.5dp"
+        android:src="@drawable/charie" />
+
+    <ImageView
+        android:id="@+id/img_mama"
+        android:layout_width="95dp"
+        android:layout_height="245dp"
+        android:layout_below="@id/img_guitar4"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14.3dp"
+        android:layout_marginEnd="4dp"
+        android:src="@drawable/mama" />
+
+    <ImageView
+        android:id="@+id/img_papa"
+        android:layout_width="97dp"
+        android:layout_height="192dp"
+        android:layout_below="@id/txt_sub_fam"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="10.5dp"
+        android:layout_toEndOf="@id/img_mama"
+        android:src="@drawable/papa"
+/>
+    <ImageView
+        android:id="@+id/school"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@drawable/school"
+        android:layout_marginTop="-7dp"
+        android:layout_below="@id/img_papa"/>
+
+</RelativeLayout>
+</ScrollView>

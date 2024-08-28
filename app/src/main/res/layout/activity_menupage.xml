@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F3EBE2"
+ >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MenuPage"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/txt_welcome"
+            android:layout_width="190dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/txt_header"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="215dp"
+            android:layout_marginEnd="23dp"
+            android:elevation="10dp"
+            android:text="@string/msg"
+            android:textColor="@color/white"
+            android:gravity="end"
+            android:fontFamily="@font/helvetica"
+            android:textSize="9dp" />
+
+        <TextView
+            android:id="@+id/txt_header"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/nimbus"
+            android:text="ABOUT \nME."
+            android:textColor="#232025"
+            android:gravity="end"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="5dp"
+            android:lineSpacingExtra="-20sp"
+            android:textSize="65dp"
+            android:background="@color/white"
+        />
+        <ImageView
+            android:id="@+id/img_me"
+            android:layout_width="500dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/txt_header"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="-9dp"
+            android:layout_marginEnd="14dp"
+            android:adjustViewBounds="true"
+            android:background="@color/white"
+            android:scaleType="centerInside"
+            android:src="@drawable/me" />
+
+        <ImageButton
+            android:id="@+id/btn_to_bio"
+            android:layout_width="142dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/img_me"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            android:background="@color/white"
+            android:scaleType="centerInside"
+            android:src="@drawable/button1" />
+
+        <ImageButton
+            android:id="@+id/btn_to_music"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/img_me"
+            android:layout_toEndOf="@+id/btn_to_bio"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            android:background="@color/white"
+            android:scaleType="centerInside"
+            android:src="@drawable/button2" />
+
+        <ImageButton
+            android:id="@+id/btn_to_movies"
+            android:layout_width="165dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_toStartOf="@+id/btn_to_music"
+            android:layout_below="@+id/btn_to_bio"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="6dp"
+
+            android:adjustViewBounds="true"
+            android:background="@color/white"
+            android:scaleType="centerInside"
+            android:src="@drawable/button3_2" />
+        <ImageButton
+            android:id="@+id/btn_to_other"
+            android:layout_width="209dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_below="@+id/btn_to_music"
+            android:layout_toEndOf="@+id/btn_to_movies"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="24dp"
+            android:adjustViewBounds="true"
+            android:background="@color/white"
+            android:scaleType="centerInside"
+            android:src="@drawable/button4"
+            />
+
+    </RelativeLayout>
+</ScrollView>

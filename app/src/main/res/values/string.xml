@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="music_header"> My Taste\nin Music.</string>
+    <string name="music_subtxt">"Let's vibe and connect through our music tastes!
+Maybe we share some awesome song preferences and can totally geek out about them together.
+If not, no worries—give my faves a chance and let's spread the musical love!" </string>
+    <string name="msg">"Hello there! I&apos;m Marvin Cayosa, currently a 2nd Year Bachelor of Science student majoring in Computer Engineering at the University of the East.
+I&apos;m excited to share a little glimpse of who I am through this app I&apos;ve created.
+Feel free to explore and get to know me better. Enjoy the journey!"</string>
+    <string name="genres_intro">I would like to showcase the diversity of my musical genres.
+        Here are the genres that i love and listen to. </string>
+    <string name="playlist">Here are some of my personally curated playlist. Give it a listen!</string>
+    <string name="hobby">I love play the guitar and perform live to other people.</string>
+    <string name="fam">Meet my small but happy family with two fur-babies!</string>
+</resources>

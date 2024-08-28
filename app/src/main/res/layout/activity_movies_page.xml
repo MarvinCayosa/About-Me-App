@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoviesPage"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/frame_outer_movies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp">
+
+        <ImageView
+            android:id="@+id/img_txt_header"
+            android:layout_width="290dp"
+            android:layout_alignParentEnd="true"
+            android:layout_height="198dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/textgroup"
+            />
+        <ImageView
+            android:id="@+id/img_mov1"
+            android:layout_width="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_height="135dp"
+            android:layout_below="@id/img_txt_header"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/scottp"
+            />
+        <ImageView
+            android:id="@+id/img_mov2"
+            android:layout_width="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_height="135dp"
+            android:layout_below="@id/img_mov1"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/perks"
+            />
+        <ImageView
+            android:id="@+id/img_mov3"
+            android:layout_width="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_height="135dp"
+            android:layout_below="@id/img_mov2"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/memento"
+            />
+        <ImageView
+            android:id="@+id/img_mov4"
+            android:layout_width="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_height="135dp"
+            android:layout_below="@id/img_mov3"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/walle"
+            />
+        <ImageView
+            android:id="@+id/img_mov5"
+            android:layout_width="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_height="135dp"
+            android:layout_below="@id/img_mov4"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/little"
+
+            />
+
+        <ImageView
+            android:id="@+id/img_txt_personal"
+            android:layout_width="250dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/img_mov5"
+            android:src="@drawable/personalpicktxt"
+
+            />
+
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/view_pager"
+            android:layout_width="270dp"
+            android:layout_height="400dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="20dp"
+            android:padding="-10dp"
+            android:clipToPadding="false"
+            android:clipChildren="false"
+            android:layout_below="@id/img_txt_personal"
+        />
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

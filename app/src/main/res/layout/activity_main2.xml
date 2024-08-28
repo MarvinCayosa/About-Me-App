@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/main2"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/marvin_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I am \nMarvin Cayosa"
+        android:gravity="center"
+        android:fontFamily="@font/helvetica"
+        android:textSize="24sp"
+        android:alpha="1" />
+
+
+</LinearLayout>
